@@ -1,0 +1,25 @@
+Explain the difference between justify-items and justify-self using code examples.
+=> Both justify-items and justify-self are properties used in CSS Grid to align grid items along the inline (row) axis.
+
+ justify-items:-
+      - The justify-items property is used on the grid container to align all the grid items within the grid cells.
+      - It aligns the grid items in the inline (row) axis within their respective grid cells.
+
+ Example:-
+
+    .grid-container {
+     display: grid;
+     grid-template-columns: 100px 100px;
+     justify-items: center; /* Align all grid items in the center of their respective cells */
+   }
+   
+ justify-self:-
+     - The justify-self property is used on individual grid items to override the alignment set by justify-items.
+     - It allows each grid item to align itself within its own grid cell, independently of other items.
+
+ Example:-
+
+       .grid-item {
+             justify-self: end; /* Align this specific grid item to the end of its cell */
+          }
+   

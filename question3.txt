@@ -1,0 +1,6 @@
+Explain the use of grid-auto-row and grid-auto-column using code examples.
+=> Grid auto rows:- This property specifies the size of implicitly created grid rows. 
+These are rows that are created when there are more grid items than explicit rows defined in the grid container.
+
+=> Grid auto columns:- This property specifies the size of implicitly created grid columns. 
+These are columns that are created when there are more grid items than explicit columns defined in the grid container.
